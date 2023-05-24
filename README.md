@@ -15,9 +15,9 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 
 ### Screenshot
 
-![](screenshot.jpg)
-![](screenshot1.jpg)
-![](screenshot2.jpg)
+![](screenshot.JPG)
+![](screenshot1.JPG)
+![](screenshot2.JPG)
 
 
 
