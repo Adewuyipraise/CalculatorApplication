@@ -1,0 +1,184 @@
+/* Add your CSS here */
+.calculator {
+  max-width: 250px;
+  margin: 10% auto;
+  margin-bottom: 2%;
+  padding: 20px;
+  background-color: rgba(62, 62, 162, 0.777);
+  border-radius: 5px;
+}
+.calc {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.theme{
+  display: flex;
+  margin-left: 10%;
+}
+
+#result {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: right;
+}
+
+input{
+    border: none;
+    background-color: rgb(21, 21, 59);
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.buttons{
+  background-color: rgb(21, 21, 59);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+button {
+    width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2%;
+  box-shadow: 0px 3px 0px #878484;
+}
+
+button:hover {
+  background-color: #d9d9d9;
+}
+
+button:active {
+  background-color: #bfbfbf;
+}
+
+.row1{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.row2{
+    display: flex;
+    margin: 2%;
+    justify-content: space-around;
+}
+.row3{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.row4{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.row5{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.theme-buttons {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+/* colored theme */
+.colored-theme {
+  background-color: #e6e6e6;
+  color: #333;
+}
+.colored-theme .theme-button{
+  background-color: #e6e6e6;
+}
+.colored-theme .calc{
+  color: black;
+}
+.colored-theme #radio{
+  background-color: white;
+}
+.colored-theme #result {
+  background-color: #eeeeee;
+    border: 1px solid #d3cdcd;
+
+}
+.colored-theme .buttons{
+  background-color: #d3cdcd;
+}
+
+.colored-theme button {
+  background-color: #e5e4e0;
+}
+
+.colored-theme button:hover {
+  background-color: #ffffff;
+}
+
+.colored-theme button:active {
+  background-color: #ff6666;
+}
+
+
+
+/*dark theme*/
+.dark-theme {
+  background-color: #17062a;
+  color: #fee53f;
+}
+.dark-theme .theme-button{
+  background-color: #1e0836;
+}
+.dark-theme .buttons{
+  background-color: #1e0836;
+    border: 1px solid #fee53f;
+
+}
+
+.dark-theme #result {
+  background-color: #1e0836;
+  color: #fee53f;
+  border: 1px solid #fee53f;
+}
+.dark-theme .fa-circle {
+  color: #fee53f;
+}
+.dark-theme .calc{
+  color: #fee53f;
+}
+
+.dark-theme button {
+  background-color: #341b4c;
+    box-shadow: 0px 3px 0px #8631b0;
+    color: #fee53f;
+
+}
+
+.dark-theme button:hover {
+  background-color:#703c8b;
+}
+
+.dark-theme button:active {
+  background-color: purple;
+}
+
+#radio {
+  display: none;
+}
+.theme-button{
+  margin-top: 25%;
+  margin-bottom: 50%;
+  width: fit-content;
+  border-radius: 30%;
+}
+

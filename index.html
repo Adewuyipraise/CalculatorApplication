@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- 
+  Coded By Lildino -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+ <div class="calculator">
+  <div class="calc">
+    <h2>Calc</h2>
+    <div class="theme">
+    <h6>THEME</h6>&nbsp;
+        <div class="theme-button">
+            <label>
+        <input type="radio" name="theme"  id="radio" value="default" checked><i class="fa fa-circle-o"></i></label>
+        <label>
+        <input type="radio" name="theme" id="radio" value="colored"><i class="fa fa-circle-o"></i></label>
+        <label>
+        <input type="radio" name="theme"  id="radio" value="dark"><i class="fa fa-circle-o"></i></label>
+        </div>    </div>
+  </div>
+        <input type="text" id="result" readonly>
+        <div class="buttons">
+            <div class="row1">
+                <button onclick="appendToResult('7')">7</button>
+                <button onclick="appendToResult('8')">8</button>
+                <button onclick="appendToResult('9')">9</button>
+                <button onclick="deleteCharacter()" style="background-color: rgba(62, 62, 162, 0.777); 
+                color: white;">Del</button>
+            </div>
+            <div class="row2">
+                <button onclick="appendToResult('4')">4</button>
+                <button onclick="appendToResult('5')">5</button>
+                <button onclick="appendToResult('6')">6</button>
+                <button onclick="appendToResult('+')">+</button>
+            </div>
+            <div class="row3">
+                <button onclick="appendToResult('1')">1</button>
+                <button onclick="appendToResult('2')">2</button>
+                <button onclick="appendToResult('3')">3</button>
+                <button onclick="appendToResult('-')">-</button>
+            </div>
+            <div class="row4">
+                <button onclick="appendToResult('.')">.</button>
+                <button onclick="appendToResult('0')">0</button>
+                <button onclick="appendToResult('/')">/</button>
+                <button onclick="appendToResult('*')">x</button>
+            </div>
+            <div class="row5">
+                <button onclick="clearResult()" style="background-color: rgba(62, 62, 162, 0.777);
+ color: white;">Reset</button>
+                <button onclick="calculateResult()" style="background-color: rgb(220, 81, 81);
+ color: white;">=</button>
+            </div>
+        </div>
+    </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Adewuyipraise">LILDINO</a>.
+  </div>
+
+     <script src="script.js"></script>
+</body>
+</html>
